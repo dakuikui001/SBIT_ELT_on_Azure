@@ -1,0 +1,68 @@
+1-registered_users_{set_num}.csv
+    user_id  type:long
+    device_id type:long
+    mac_address type:string
+    registration_timestamp double
+
+2-user_info_{set_num}.json(produced by kafka)
+    key type:string
+    value type:string
+        {
+            user_id type:bigint
+            dob(#day of birth) type:date
+            sex type:string
+            gender type:string
+            first_name type:string
+            last_name type:string
+            address:
+                {
+                "street_address"  type:string
+                "city" type:string
+                "state" type:string
+                "zip" type:int
+                }
+            timestamp type:
+            update_type   type:
+        }
+    topic type:string
+    partition type:bigint
+    offset type:bigint
+    timestamp type:bigint
+
+3-bpm_{set_num}.json
+    key type:string
+    value type:string
+        {
+        device_id type:bigint
+        time type:timestamp
+        heartrate type:double
+        }
+    topic type:string
+    partition type:bigint
+    offset type:bigint
+    timestamp type:bigint
+
+4-workout_{set_num}.json
+    key type:string
+    value type:string
+        {
+        user_id type:int
+        workout_id type:int
+        time type:timestamp
+        action  type:string
+        session_id  type:int
+        }
+    topic type:string
+    partition type:bigint
+    offset type:bigint
+    timestamp type:bigint
+
+5-gym_logins_{set_num}.csv
+    mac_address type:string
+    gym type:bigint
+    login type:double(timestamp)
+    logout type:double(timestamp)
+
+
+
+user_id bigint, dob date, sex string, gender string, first_name string, last_name string, address STRUCT<street_address: STRING, city: STRING, state: STRING, zip: INT>, timestamp timestamp, update_type string

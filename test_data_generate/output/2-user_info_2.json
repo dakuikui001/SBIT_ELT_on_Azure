@@ -1,0 +1,402 @@
+[
+    {
+        "key": "1001",
+        "value": "{\"user_id\": 1001, \"dob\": \"2006-11-12\", \"sex\": \"F\", \"gender\": \"Female\", \"first_name\": \"Ronald\", \"last_name\": \"Ellis\", \"address\": {\"street_address\": \"5481 Chen Canyon Suite 292\", \"city\": \"Alvaradoville\", \"state\": \"WI\", \"zip\": 47014}, \"timestamp\": \"2025-12-18 21:49:11.544986\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 0,
+        "offset": 0,
+        "timestamp": 1766065751545
+    },
+    {
+        "key": "1002",
+        "value": "{\"user_id\": 1002, \"dob\": \"1988-06-07\", \"sex\": \"F\", \"gender\": \"Non-binary\", \"first_name\": \"Brandon\", \"last_name\": \"Mora\", \"address\": {\"street_address\": \"8084 Michael Drives Suite 899\", \"city\": \"Harrisfort\", \"state\": \"VT\", \"zip\": 23939}, \"timestamp\": \"2025-12-18 21:49:11.545152\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 0,
+        "offset": 1,
+        "timestamp": 1766065751545
+    },
+    {
+        "key": "1003",
+        "value": "{\"user_id\": 1003, \"dob\": \"2004-06-25\", \"sex\": \"M\", \"gender\": \"Female\", \"first_name\": \"Edward\", \"last_name\": \"Hall\", \"address\": {\"street_address\": \"659 Smith Point\", \"city\": \"Perkinston\", \"state\": \"MH\", \"zip\": 76205}, \"timestamp\": \"2025-12-18 21:49:11.545298\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 1,
+        "offset": 2,
+        "timestamp": 1766065751545
+    },
+    {
+        "key": "1004",
+        "value": "{\"user_id\": 1004, \"dob\": \"1969-02-16\", \"sex\": \"M\", \"gender\": \"Female\", \"first_name\": \"John\", \"last_name\": \"Hodges\", \"address\": {\"street_address\": \"2935 Larry Landing Apt. 875\", \"city\": \"Tamaraburgh\", \"state\": \"CA\", \"zip\": 46422}, \"timestamp\": \"2025-12-18 21:49:11.545431\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 1,
+        "offset": 3,
+        "timestamp": 1766065751545
+    },
+    {
+        "key": "1005",
+        "value": "{\"user_id\": 1005, \"dob\": \"1993-04-08\", \"sex\": \"F\", \"gender\": \"Non-binary\", \"first_name\": \"Jonathan\", \"last_name\": \"Escobar\", \"address\": {\"street_address\": \"3344 Bill Highway Suite 961\", \"city\": \"Lake Andrewchester\", \"state\": \"DE\", \"zip\": 63421}, \"timestamp\": \"2025-12-18 21:49:11.545560\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 0,
+        "offset": 4,
+        "timestamp": 1766065751545
+    },
+    {
+        "key": "1006",
+        "value": "{\"user_id\": 1006, \"dob\": \"2005-12-13\", \"sex\": \"M\", \"gender\": \"Non-binary\", \"first_name\": \"Yesenia\", \"last_name\": \"Moon\", \"address\": {\"street_address\": \"8406 Johnson Glens\", \"city\": \"Mitchellside\", \"state\": \"FL\", \"zip\": 92713}, \"timestamp\": \"2025-12-18 21:49:11.545695\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 1,
+        "offset": 5,
+        "timestamp": 1766065751545
+    },
+    {
+        "key": "1007",
+        "value": "{\"user_id\": 1007, \"dob\": \"1964-02-24\", \"sex\": \"F\", \"gender\": \"Male\", \"first_name\": \"Ruben\", \"last_name\": \"Johnson\", \"address\": {\"street_address\": \"6106 White River Suite 609\", \"city\": \"Lake Hannahville\", \"state\": \"VT\", \"zip\": 72803}, \"timestamp\": \"2025-12-18 21:49:11.545838\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 1,
+        "offset": 6,
+        "timestamp": 1766065751545
+    },
+    {
+        "key": "1008",
+        "value": "{\"user_id\": 1008, \"dob\": \"1978-10-10\", \"sex\": \"F\", \"gender\": \"Male\", \"first_name\": \"Tom\", \"last_name\": \"Harmon\", \"address\": {\"street_address\": \"7536 Matthews Springs\", \"city\": \"Port Andrew\", \"state\": \"FL\", \"zip\": 12662}, \"timestamp\": \"2025-12-18 21:49:11.545961\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 0,
+        "offset": 7,
+        "timestamp": 1766065751545
+    },
+    {
+        "key": "1009",
+        "value": "{\"user_id\": 1009, \"dob\": \"1990-09-01\", \"sex\": \"M\", \"gender\": \"Male\", \"first_name\": \"Brandy\", \"last_name\": \"Walker\", \"address\": {\"street_address\": \"68318 Golden Grove Suite 529\", \"city\": \"Gibsonview\", \"state\": \"OK\", \"zip\": 38808}, \"timestamp\": \"2025-12-18 21:49:11.546092\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 2,
+        "offset": 8,
+        "timestamp": 1766065751546
+    },
+    {
+        "key": "1010",
+        "value": "{\"user_id\": 1010, \"dob\": \"1957-09-29\", \"sex\": \"F\", \"gender\": \"Female\", \"first_name\": \"Cynthia\", \"last_name\": \"Griffith\", \"address\": {\"street_address\": \"3645 Sharp Mountains Suite 042\", \"city\": \"East Derricktown\", \"state\": \"PR\", \"zip\": 2332}, \"timestamp\": \"2025-12-18 21:49:11.546221\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 2,
+        "offset": 9,
+        "timestamp": 1766065751546
+    },
+    {
+        "key": "1011",
+        "value": "{\"user_id\": 1011, \"dob\": \"1972-11-16\", \"sex\": \"M\", \"gender\": \"Non-binary\", \"first_name\": \"Melissa\", \"last_name\": \"Richardson\", \"address\": {\"street_address\": \"779 Deanna Shoals\", \"city\": \"Virginiachester\", \"state\": \"UT\", \"zip\": 5880}, \"timestamp\": \"2025-12-18 21:49:11.546345\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 2,
+        "offset": 10,
+        "timestamp": 1766065751546
+    },
+    {
+        "key": "1012",
+        "value": "{\"user_id\": 1012, \"dob\": \"1986-02-27\", \"sex\": \"F\", \"gender\": \"Female\", \"first_name\": \"Paige\", \"last_name\": \"Russell\", \"address\": {\"street_address\": \"832 Powell Island\", \"city\": \"Jacksontown\", \"state\": \"PA\", \"zip\": 17696}, \"timestamp\": \"2025-12-18 21:49:11.546486\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 0,
+        "offset": 11,
+        "timestamp": 1766065751546
+    },
+    {
+        "key": "1013",
+        "value": "{\"user_id\": 1013, \"dob\": \"2006-05-15\", \"sex\": \"M\", \"gender\": \"Female\", \"first_name\": \"Christine\", \"last_name\": \"Henson\", \"address\": {\"street_address\": \"5383 Danielle Cape\", \"city\": \"East Lindsay\", \"state\": \"IA\", \"zip\": 51616}, \"timestamp\": \"2025-12-18 21:49:11.546608\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 0,
+        "offset": 12,
+        "timestamp": 1766065751546
+    },
+    {
+        "key": "1014",
+        "value": "{\"user_id\": 1014, \"dob\": \"1968-04-23\", \"sex\": \"F\", \"gender\": \"Non-binary\", \"first_name\": \"Melissa\", \"last_name\": \"Wilson\", \"address\": {\"street_address\": \"73064 Simpson Station\", \"city\": \"Port Gabriella\", \"state\": \"SD\", \"zip\": 94374}, \"timestamp\": \"2025-12-18 21:49:11.546739\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 1,
+        "offset": 13,
+        "timestamp": 1766065751546
+    },
+    {
+        "key": "1015",
+        "value": "{\"user_id\": 1015, \"dob\": \"1991-02-15\", \"sex\": \"M\", \"gender\": \"Male\", \"first_name\": \"Angela\", \"last_name\": \"Russell\", \"address\": {\"street_address\": \"2050 Lisa Crossroad\", \"city\": \"Pamelachester\", \"state\": \"AZ\", \"zip\": 55950}, \"timestamp\": \"2025-12-18 21:49:11.546860\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 2,
+        "offset": 14,
+        "timestamp": 1766065751546
+    },
+    {
+        "key": "1016",
+        "value": "{\"user_id\": 1016, \"dob\": \"1971-11-11\", \"sex\": \"F\", \"gender\": \"Male\", \"first_name\": \"Tanya\", \"last_name\": \"Green\", \"address\": {\"street_address\": \"4016 Kelly Stravenue Apt. 593\", \"city\": \"West Marco\", \"state\": \"MN\", \"zip\": 71306}, \"timestamp\": \"2025-12-18 21:49:11.546980\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 2,
+        "offset": 15,
+        "timestamp": 1766065751546
+    },
+    {
+        "key": "1017",
+        "value": "{\"user_id\": 1017, \"dob\": \"1978-10-26\", \"sex\": \"M\", \"gender\": \"Female\", \"first_name\": \"Cynthia\", \"last_name\": \"Le\", \"address\": {\"street_address\": \"330 Freeman Radial\", \"city\": \"Gomezport\", \"state\": \"AR\", \"zip\": 18432}, \"timestamp\": \"2025-12-18 21:49:11.547119\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 1,
+        "offset": 16,
+        "timestamp": 1766065751547
+    },
+    {
+        "key": "1018",
+        "value": "{\"user_id\": 1018, \"dob\": \"2000-06-27\", \"sex\": \"F\", \"gender\": \"Non-binary\", \"first_name\": \"Richard\", \"last_name\": \"Eaton\", \"address\": {\"street_address\": \"9109 Dougherty Plaza\", \"city\": \"New Adamstad\", \"state\": \"WY\", \"zip\": 51387}, \"timestamp\": \"2025-12-18 21:49:11.547250\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 1,
+        "offset": 17,
+        "timestamp": 1766065751547
+    },
+    {
+        "key": "1019",
+        "value": "{\"user_id\": 1019, \"dob\": \"1970-06-23\", \"sex\": \"M\", \"gender\": \"Male\", \"first_name\": \"Jimmy\", \"last_name\": \"Little\", \"address\": {\"street_address\": \"7153 Newman Brooks Suite 217\", \"city\": \"South Barbaraside\", \"state\": \"NJ\", \"zip\": 75841}, \"timestamp\": \"2025-12-18 21:49:11.547384\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 0,
+        "offset": 18,
+        "timestamp": 1766065751547
+    },
+    {
+        "key": "1020",
+        "value": "{\"user_id\": 1020, \"dob\": \"1971-11-28\", \"sex\": \"M\", \"gender\": \"Female\", \"first_name\": \"Jamie\", \"last_name\": \"Sweeney\", \"address\": {\"street_address\": \"9598 Marquez Roads Suite 211\", \"city\": \"West Stevenshire\", \"state\": \"ME\", \"zip\": 89104}, \"timestamp\": \"2025-12-18 21:49:11.547517\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 1,
+        "offset": 19,
+        "timestamp": 1766065751547
+    },
+    {
+        "key": "1021",
+        "value": "{\"user_id\": 1021, \"dob\": \"1983-12-21\", \"sex\": \"F\", \"gender\": \"Male\", \"first_name\": \"Autumn\", \"last_name\": \"Simpson\", \"address\": {\"street_address\": \"35910 April View Suite 448\", \"city\": \"Loganchester\", \"state\": \"WV\", \"zip\": 69262}, \"timestamp\": \"2025-12-18 21:49:11.547651\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 2,
+        "offset": 20,
+        "timestamp": 1766065751547
+    },
+    {
+        "key": "1022",
+        "value": "{\"user_id\": 1022, \"dob\": \"1959-10-26\", \"sex\": \"F\", \"gender\": \"Female\", \"first_name\": \"Melvin\", \"last_name\": \"Holmes\", \"address\": {\"street_address\": \"00754 Steven Station Apt. 423\", \"city\": \"Charlesfort\", \"state\": \"WI\", \"zip\": 11755}, \"timestamp\": \"2025-12-18 21:49:11.547775\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 2,
+        "offset": 21,
+        "timestamp": 1766065751547
+    },
+    {
+        "key": "1023",
+        "value": "{\"user_id\": 1023, \"dob\": \"2000-11-22\", \"sex\": \"M\", \"gender\": \"Male\", \"first_name\": \"Stephanie\", \"last_name\": \"Hicks\", \"address\": {\"street_address\": \"650 Martin Bypass\", \"city\": \"South Brycemouth\", \"state\": \"MO\", \"zip\": 22853}, \"timestamp\": \"2025-12-18 21:49:11.547907\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 2,
+        "offset": 22,
+        "timestamp": 1766065751547
+    },
+    {
+        "key": "1024",
+        "value": "{\"user_id\": 1024, \"dob\": \"1962-07-03\", \"sex\": \"M\", \"gender\": \"Non-binary\", \"first_name\": \"Stephanie\", \"last_name\": \"West\", \"address\": {\"street_address\": \"315 Amber Landing\", \"city\": \"Tammyfurt\", \"state\": \"NH\", \"zip\": 67504}, \"timestamp\": \"2025-12-18 21:49:11.548029\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 2,
+        "offset": 23,
+        "timestamp": 1766065751548
+    },
+    {
+        "key": "1025",
+        "value": "{\"user_id\": 1025, \"dob\": \"1976-07-06\", \"sex\": \"M\", \"gender\": \"Non-binary\", \"first_name\": \"Teresa\", \"last_name\": \"Dawson\", \"address\": {\"street_address\": \"59926 Hendrix Dale Suite 536\", \"city\": \"Murphyburgh\", \"state\": \"MA\", \"zip\": 41114}, \"timestamp\": \"2025-12-18 21:49:11.548174\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 1,
+        "offset": 24,
+        "timestamp": 1766065751548
+    },
+    {
+        "key": "1026",
+        "value": "{\"user_id\": 1026, \"dob\": \"2001-08-01\", \"sex\": \"M\", \"gender\": \"Male\", \"first_name\": \"Melvin\", \"last_name\": \"Sanders\", \"address\": {\"street_address\": \"826 Stevens Passage Apt. 087\", \"city\": \"South Paul\", \"state\": \"SC\", \"zip\": 69502}, \"timestamp\": \"2025-12-18 21:49:11.548310\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 0,
+        "offset": 25,
+        "timestamp": 1766065751548
+    },
+    {
+        "key": "1027",
+        "value": "{\"user_id\": 1027, \"dob\": \"1978-05-28\", \"sex\": \"F\", \"gender\": \"Male\", \"first_name\": \"Brooke\", \"last_name\": \"Manning\", \"address\": {\"street_address\": \"1626 Tyler Plains\", \"city\": \"Johnsonbury\", \"state\": \"AK\", \"zip\": 43511}, \"timestamp\": \"2025-12-18 21:49:11.548441\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 2,
+        "offset": 26,
+        "timestamp": 1766065751548
+    },
+    {
+        "key": "1028",
+        "value": "{\"user_id\": 1028, \"dob\": \"2007-09-20\", \"sex\": \"M\", \"gender\": \"Male\", \"first_name\": \"Rodney\", \"last_name\": \"James\", \"address\": {\"street_address\": \"221 Regina Causeway\", \"city\": \"Michelleland\", \"state\": \"WA\", \"zip\": 56104}, \"timestamp\": \"2025-12-18 21:49:11.548561\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 2,
+        "offset": 27,
+        "timestamp": 1766065751548
+    },
+    {
+        "key": "1029",
+        "value": "{\"user_id\": 1029, \"dob\": \"1963-04-16\", \"sex\": \"M\", \"gender\": \"Female\", \"first_name\": \"Sherri\", \"last_name\": \"Stark\", \"address\": {\"street_address\": \"96685 Brandon Rest Apt. 091\", \"city\": \"Port Kathrynhaven\", \"state\": \"NC\", \"zip\": 41124}, \"timestamp\": \"2025-12-18 21:49:11.548684\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 0,
+        "offset": 28,
+        "timestamp": 1766065751548
+    },
+    {
+        "key": "1030",
+        "value": "{\"user_id\": 1030, \"dob\": \"1992-07-11\", \"sex\": \"M\", \"gender\": \"Male\", \"first_name\": \"Emily\", \"last_name\": \"Davidson\", \"address\": {\"street_address\": \"19051 Fritz Landing Suite 385\", \"city\": \"North Joseport\", \"state\": \"MI\", \"zip\": 95533}, \"timestamp\": \"2025-12-18 21:49:11.548816\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 1,
+        "offset": 29,
+        "timestamp": 1766065751548
+    },
+    {
+        "key": "1031",
+        "value": "{\"user_id\": 1031, \"dob\": \"1964-05-31\", \"sex\": \"M\", \"gender\": \"Female\", \"first_name\": \"Lynn\", \"last_name\": \"Bowman\", \"address\": {\"street_address\": \"208 Briggs Summit\", \"city\": \"Lake Curtis\", \"state\": \"ND\", \"zip\": 16782}, \"timestamp\": \"2025-12-18 21:49:11.548944\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 2,
+        "offset": 30,
+        "timestamp": 1766065751548
+    },
+    {
+        "key": "1032",
+        "value": "{\"user_id\": 1032, \"dob\": \"1982-08-14\", \"sex\": \"F\", \"gender\": \"Male\", \"first_name\": \"Brian\", \"last_name\": \"Hill\", \"address\": {\"street_address\": \"1756 Cook Crest\", \"city\": \"New Tara\", \"state\": \"TN\", \"zip\": 19518}, \"timestamp\": \"2025-12-18 21:49:11.549072\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 0,
+        "offset": 31,
+        "timestamp": 1766065751549
+    },
+    {
+        "key": "1033",
+        "value": "{\"user_id\": 1033, \"dob\": \"1969-07-30\", \"sex\": \"M\", \"gender\": \"Non-binary\", \"first_name\": \"Robert\", \"last_name\": \"Young\", \"address\": {\"street_address\": \"213 Francis Key Suite 755\", \"city\": \"South Michael\", \"state\": \"AS\", \"zip\": 88707}, \"timestamp\": \"2025-12-18 21:49:11.549202\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 0,
+        "offset": 32,
+        "timestamp": 1766065751549
+    },
+    {
+        "key": "1034",
+        "value": "{\"user_id\": 1034, \"dob\": \"2000-11-08\", \"sex\": \"M\", \"gender\": \"Non-binary\", \"first_name\": \"John\", \"last_name\": \"Parker\", \"address\": {\"street_address\": \"5516 Vega Mill\", \"city\": \"New Hannahbury\", \"state\": \"ME\", \"zip\": 51703}, \"timestamp\": \"2025-12-18 21:49:11.549330\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 2,
+        "offset": 33,
+        "timestamp": 1766065751549
+    },
+    {
+        "key": "1035",
+        "value": "{\"user_id\": 1035, \"dob\": \"1986-01-08\", \"sex\": \"M\", \"gender\": \"Non-binary\", \"first_name\": \"Anthony\", \"last_name\": \"Escobar\", \"address\": {\"street_address\": \"114 Smith Islands Suite 643\", \"city\": \"North Lisa\", \"state\": \"PA\", \"zip\": 70935}, \"timestamp\": \"2025-12-18 21:49:11.549463\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 2,
+        "offset": 34,
+        "timestamp": 1766065751549
+    },
+    {
+        "key": "1036",
+        "value": "{\"user_id\": 1036, \"dob\": \"2005-08-15\", \"sex\": \"M\", \"gender\": \"Female\", \"first_name\": \"Aaron\", \"last_name\": \"Banks\", \"address\": {\"street_address\": \"64780 Williams Place\", \"city\": \"Smalltown\", \"state\": \"NM\", \"zip\": 65508}, \"timestamp\": \"2025-12-18 21:49:11.549600\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 2,
+        "offset": 35,
+        "timestamp": 1766065751549
+    },
+    {
+        "key": "1037",
+        "value": "{\"user_id\": 1037, \"dob\": \"1981-06-20\", \"sex\": \"M\", \"gender\": \"Male\", \"first_name\": \"Joe\", \"last_name\": \"Mullen\", \"address\": {\"street_address\": \"44644 Smith Streets Apt. 459\", \"city\": \"South Julianmouth\", \"state\": \"MO\", \"zip\": 30302}, \"timestamp\": \"2025-12-18 21:49:11.549730\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 1,
+        "offset": 36,
+        "timestamp": 1766065751549
+    },
+    {
+        "key": "1038",
+        "value": "{\"user_id\": 1038, \"dob\": \"2002-12-18\", \"sex\": \"M\", \"gender\": \"Female\", \"first_name\": \"Samuel\", \"last_name\": \"Beck\", \"address\": {\"street_address\": \"352 Jones Fall Apt. 810\", \"city\": \"Andersonfort\", \"state\": \"GU\", \"zip\": 10223}, \"timestamp\": \"2025-12-18 21:49:11.549869\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 0,
+        "offset": 37,
+        "timestamp": 1766065751549
+    },
+    {
+        "key": "1039",
+        "value": "{\"user_id\": 1039, \"dob\": \"1956-11-05\", \"sex\": \"F\", \"gender\": \"Male\", \"first_name\": \"Carolyn\", \"last_name\": \"Humphrey\", \"address\": {\"street_address\": \"0061 Jeremy Isle\", \"city\": \"North Shelbybury\", \"state\": \"OK\", \"zip\": 70195}, \"timestamp\": \"2025-12-18 21:49:11.549991\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 2,
+        "offset": 38,
+        "timestamp": 1766065751549
+    },
+    {
+        "key": "1040",
+        "value": "{\"user_id\": 1040, \"dob\": \"1982-01-10\", \"sex\": \"F\", \"gender\": \"Non-binary\", \"first_name\": \"Suzanne\", \"last_name\": \"White\", \"address\": {\"street_address\": \"0549 Contreras Keys\", \"city\": \"East Heather\", \"state\": \"SC\", \"zip\": 91155}, \"timestamp\": \"2025-12-18 21:49:11.550119\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 1,
+        "offset": 39,
+        "timestamp": 1766065751550
+    },
+    {
+        "key": "1041",
+        "value": "{\"user_id\": 1041, \"dob\": \"1985-10-27\", \"sex\": \"M\", \"gender\": \"Female\", \"first_name\": \"Gary\", \"last_name\": \"Johnson\", \"address\": {\"street_address\": \"5909 Vaughn Path\", \"city\": \"East Tammy\", \"state\": \"UT\", \"zip\": 56780}, \"timestamp\": \"2025-12-18 21:49:11.550255\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 0,
+        "offset": 40,
+        "timestamp": 1766065751550
+    },
+    {
+        "key": "1042",
+        "value": "{\"user_id\": 1042, \"dob\": \"1979-12-26\", \"sex\": \"F\", \"gender\": \"Male\", \"first_name\": \"Crystal\", \"last_name\": \"Miller\", \"address\": {\"street_address\": \"30555 Sergio Valley Suite 600\", \"city\": \"East Andrew\", \"state\": \"CA\", \"zip\": 58319}, \"timestamp\": \"2025-12-18 21:49:11.550378\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 0,
+        "offset": 41,
+        "timestamp": 1766065751550
+    },
+    {
+        "key": "1043",
+        "value": "{\"user_id\": 1043, \"dob\": \"1974-09-05\", \"sex\": \"F\", \"gender\": \"Male\", \"first_name\": \"Joshua\", \"last_name\": \"Gibson\", \"address\": {\"street_address\": \"424 Evans Extensions Apt. 053\", \"city\": \"Ryanport\", \"state\": \"MO\", \"zip\": 99828}, \"timestamp\": \"2025-12-18 21:49:11.550508\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 0,
+        "offset": 42,
+        "timestamp": 1766065751550
+    },
+    {
+        "key": "1044",
+        "value": "{\"user_id\": 1044, \"dob\": \"1970-12-12\", \"sex\": \"F\", \"gender\": \"Non-binary\", \"first_name\": \"Adam\", \"last_name\": \"Griffith\", \"address\": {\"street_address\": \"9524 Kent Neck Apt. 973\", \"city\": \"Bensonburgh\", \"state\": \"GU\", \"zip\": 56470}, \"timestamp\": \"2025-12-18 21:49:11.550648\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 0,
+        "offset": 43,
+        "timestamp": 1766065751550
+    },
+    {
+        "key": "1045",
+        "value": "{\"user_id\": 1045, \"dob\": \"1972-04-12\", \"sex\": \"M\", \"gender\": \"Non-binary\", \"first_name\": \"Heather\", \"last_name\": \"Lopez\", \"address\": {\"street_address\": \"475 Aguirre Crest\", \"city\": \"Smithfort\", \"state\": \"ID\", \"zip\": 89065}, \"timestamp\": \"2025-12-18 21:49:11.550786\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 2,
+        "offset": 44,
+        "timestamp": 1766065751550
+    },
+    {
+        "key": "1046",
+        "value": "{\"user_id\": 1046, \"dob\": \"1963-09-19\", \"sex\": \"M\", \"gender\": \"Male\", \"first_name\": \"Dave\", \"last_name\": \"Hernandez\", \"address\": {\"street_address\": \"4860 Christopher Ridges Apt. 750\", \"city\": \"Richmondshire\", \"state\": \"NE\", \"zip\": 43817}, \"timestamp\": \"2025-12-18 21:49:11.550915\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 1,
+        "offset": 45,
+        "timestamp": 1766065751550
+    },
+    {
+        "key": "1047",
+        "value": "{\"user_id\": 1047, \"dob\": \"1976-07-20\", \"sex\": \"M\", \"gender\": \"Non-binary\", \"first_name\": \"Brooke\", \"last_name\": \"Jones\", \"address\": {\"street_address\": \"8064 Rhodes Terrace\", \"city\": \"North Christopherbury\", \"state\": \"TX\", \"zip\": 2280}, \"timestamp\": \"2025-12-18 21:49:11.551046\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 1,
+        "offset": 46,
+        "timestamp": 1766065751551
+    },
+    {
+        "key": "1048",
+        "value": "{\"user_id\": 1048, \"dob\": \"1989-08-21\", \"sex\": \"M\", \"gender\": \"Non-binary\", \"first_name\": \"Henry\", \"last_name\": \"Perez\", \"address\": {\"street_address\": \"4955 Hailey Crest\", \"city\": \"North Tyroneview\", \"state\": \"UT\", \"zip\": 15415}, \"timestamp\": \"2025-12-18 21:49:11.551174\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 1,
+        "offset": 47,
+        "timestamp": 1766065751551
+    },
+    {
+        "key": "1049",
+        "value": "{\"user_id\": 1049, \"dob\": \"1963-07-10\", \"sex\": \"F\", \"gender\": \"Male\", \"first_name\": \"Elizabeth\", \"last_name\": \"Scott\", \"address\": {\"street_address\": \"86323 Foley Pine\", \"city\": \"South Rachel\", \"state\": \"OH\", \"zip\": 78984}, \"timestamp\": \"2025-12-18 21:49:11.551305\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 2,
+        "offset": 48,
+        "timestamp": 1766065751551
+    },
+    {
+        "key": "1050",
+        "value": "{\"user_id\": 1050, \"dob\": \"1955-12-31\", \"sex\": \"F\", \"gender\": \"Non-binary\", \"first_name\": \"Michael\", \"last_name\": \"Ryan\", \"address\": {\"street_address\": \"7633 Bradley Gateway Apt. 544\", \"city\": \"Lake Catherine\", \"state\": \"AL\", \"zip\": 95805}, \"timestamp\": \"2025-12-18 21:49:11.551423\", \"update_type\": \"new\"}",
+        "topic": "user_info",
+        "partition": 0,
+        "offset": 49,
+        "timestamp": 1766065751551
+    }
+]
