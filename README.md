@@ -38,6 +38,8 @@ This project implements an end-to-end data pipeline for processing fitness data 
 
 ![Project Architecture](Project%20Architechture.png)
 
+## Power BI Report
+![Dashboard Sample](report/sample/dashboard.png)
 ---
 
 ## Data Flow
@@ -324,8 +326,6 @@ Three Azure Functions consume from Kafka topics and write to ADLS:
 
 **Power BI Report**: `SBIT_analysis_report.pbix`
 
-**Sample Dashboard**:
-![Dashboard Sample](report/sample/dashboard.png)
 
 The Power BI report connects to Gold layer tables for visualization and analysis of:
 - Workout performance metrics
