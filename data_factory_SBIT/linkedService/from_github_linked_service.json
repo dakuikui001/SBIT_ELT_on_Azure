@@ -1,0 +1,13 @@
+{
+	"name": "from_github_linked_service",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/dakuikui001/SBIT_ELT_on_Azure/refs/heads/main/test_data_generate/output/",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}

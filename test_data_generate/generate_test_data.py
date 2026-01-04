@@ -4,6 +4,7 @@ import random
 from faker import Faker
 from datetime import datetime, timedelta
 import os
+import uuid
 
 fake = Faker()
 
@@ -14,8 +15,8 @@ def generate_test_data(num_users=100, set_num=1):
     # --- 1. 生成基础注册用户 ---
     users_data = []
     for i in range(num_users):
-        user_id = 1001 + i
-        device_id = 5001 + i
+        user_id = 'user' + str(set_num) + '_' + uuid.uuid4().hex[:8]
+        device_id = 'device' + str(set_num) + '_'  + uuid.uuid4().hex[:8]
         mac_address = fake.mac_address()
         reg_ts = (datetime.now() - timedelta(days=random.randint(365, 730))).timestamp()
         
@@ -33,7 +34,7 @@ def generate_test_data(num_users=100, set_num=1):
     user_info_list = []
     for idx, row in df_users.iterrows():
         value_content = {
-            "user_id": int(row['user_id']),
+            "user_id": row['user_id'],
             "dob": fake.date_of_birth(minimum_age=18, maximum_age=70).strftime('%Y-%m-%d'),
             "sex": random.choice(['M', 'F']),
             "gender": random.choice(['Male', 'Female', 'Non-binary']),
@@ -43,10 +44,7 @@ def generate_test_data(num_users=100, set_num=1):
             "timestamp": str(datetime.now()),
             "update_type": "new"
         }
-        user_info_list.append({
-            "key": str(row['user_id']), "value": json.dumps(value_content), "topic": "user_info",
-            "partition": random.randint(0, 2), "offset": idx, "timestamp": int(datetime.now().timestamp() * 1000)
-        })
+        user_info_list.append(json.dumps(value_content))
     with open(f"output/2-user_info_{set_num}.json", 'w') as f:
         json.dump(user_info_list, f, indent=4)
 
@@ -82,25 +80,18 @@ def generate_test_data(num_users=100, set_num=1):
         # 运动在离开前 5 分钟结束
         workout_stop_dt = logout_dt - timedelta(minutes=5)
         
-        session_id = random.randint(1000, 9999)
-        workout_id = random.randint(10000, 99999)
+        session_id = "session" + str(set_num) + '_' + uuid.uuid4().hex[:8]
+        workout_id = "workout_id" + str(set_num) + '_'  + uuid.uuid4().hex[:8]
         # 写入 Start 记录
         for action, action_dt in [("start", workout_start_dt), ("stop", workout_stop_dt)]:
             val_workout = {
-                "user_id": int(row['user_id']),
+                "user_id": row['user_id'],
                 "workout_id": workout_id,
                 "time": action_dt.strftime('%Y-%m-%d %H:%M:%S'),
                 "action": action,
                 "session_id": session_id
             }
-            workout_list.append({
-                "key": str(row['user_id']),
-                "value": json.dumps(val_workout),
-                "topic": "workout",
-                "partition": random.randint(0, 2),
-                "offset": len(workout_list),
-                "timestamp": int(action_dt.timestamp() * 1000)
-            })
+            workout_list.append(json.dumps(val_workout))
 
         # C. 生成 BPM (在运动期间内)
         # 在运动期间生成 3 条心率快照
@@ -110,18 +101,11 @@ def generate_test_data(num_users=100, set_num=1):
             bpm_dt = workout_start_dt + timedelta(seconds=offset_sec)
             
             val_bpm = {
-                "device_id": int(row['device_id']),
+                "device_id": row['device_id'],
                 "time": bpm_dt.strftime('%Y-%m-%d %H:%M:%S'),
                 "heartrate": round(random.uniform(100.0, 160.0), 2) # 运动时心率较高
             }
-            bpm_list.append({
-                "key": str(row['device_id']),
-                "value": json.dumps(val_bpm),
-                "topic": "bpm",
-                "partition": random.randint(0, 2),
-                "offset": len(bpm_list),
-                "timestamp": int(bpm_dt.timestamp() * 1000)
-            })
+            bpm_list.append(json.dumps(val_bpm))
 
     # --- 写入文件 ---
     with open(f"output/3-bpm_{set_num}.json", 'w') as f:
@@ -135,4 +119,4 @@ def generate_test_data(num_users=100, set_num=1):
     print(f"Set {set_num} 数据关联生成完毕！")
 
 if __name__ == "__main__":
-    generate_test_data(num_users=50, set_num=2)
+    generate_test_data(num_users=100, set_num=5)

@@ -1,0 +1,13 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=dataprojectsforhuilu;AccountKey=8lgRjQlqeBCfp7zCn/kfSnQjRNPIK0LyyhsT81Gqtud2alaO6a0Xr5D4ZXOKPZUNIlAE9MQPX2Rb+ASt3BjgYA==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "KafkaConnString": "pkc-921jm.us-east-2.aws.confluent.cloud:9092",
+    "KafkaPassword": "cflttFmb380V3TiQCvtXPmKEWoLkUDBoZn2ZUsdrpoAWV9ynKNUvtD+iExYLFHMQ",
+    "KafkaUsername": "GGJPHA2CIM2YFWVA",
+    "STORAGE_ACCOUNT_NAME": "dataprojectsforhuilu",
+    "STORAGE_ACCOUNT_KEY": "8lgRjQlqeBCfp7zCn/kfSnQjRNPIK0LyyhsT81Gqtud2alaO6a0Xr5D4ZXOKPZUNIlAE9MQPX2Rb+ASt3BjgYA==",
+    "STORAGE_ACCOUNT_CONNECTION": "DefaultEndpointsProtocol=https;AccountName=dataprojectsforhuilu;AccountKey=8lgRjQlqeBCfp7zCn/kfSnQjRNPIK0LyyhsT81Gqtud2alaO6a0Xr5D4ZXOKPZUNIlAE9MQPX2Rb+ASt3BjgYA==;EndpointSuffix=core.windows.net"
+  }
+}

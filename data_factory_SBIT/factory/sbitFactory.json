@@ -1,0 +1,9 @@
+{
+	"name": "sbitFactory",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a87a5067-ceff-4f98-bb43-30aa17d9ab41",
+		"tenantId": "a6dcd622-7624-4c7b-94ab-a8e9c9ee7d5e"
+	}
+}

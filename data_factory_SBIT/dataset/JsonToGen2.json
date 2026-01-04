@@ -1,0 +1,29 @@
+{
+	"name": "JsonToGen2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "to_gen2_linked_service",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"fileName": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().fileName",
+					"type": "Expression"
+				},
+				"folderPath": "data_zone/test_data",
+				"fileSystem": "sbit-unmanaged-dev"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

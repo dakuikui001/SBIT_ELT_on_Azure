@@ -1,0 +1,80 @@
+{
+	"name": "Mainpipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "Execute Pipeline For CSV",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"policy": {
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "mainpipelineForCSV",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true,
+					"parameters": {
+						"file_prefixes": {
+							"value": "@pipeline().parameters.file_prefix_for_csv",
+							"type": "Expression"
+						}
+					}
+				}
+			},
+			{
+				"name": "Execute Pipeline For Json",
+				"type": "ExecutePipeline",
+				"state": "Inactive",
+				"onInactiveMarkAs": "Succeeded",
+				"dependsOn": [
+					{
+						"activity": "Execute Pipeline For CSV",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "mainpipelineForJson",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true,
+					"parameters": {
+						"filePrefix": {
+							"value": "@pipeline().parameters.file_prefix_for_json",
+							"type": "Expression"
+						}
+					}
+				}
+			}
+		],
+		"parameters": {
+			"file_prefix_for_csv": {
+				"type": "array",
+				"defaultValue": [
+					"1-registered_users_",
+					"5-gym_logins_"
+				]
+			},
+			"file_prefix_for_json": {
+				"type": "array",
+				"defaultValue": [
+					"2-user_info_",
+					"3-bpm_",
+					"4-workout_"
+				]
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2025-12-19T02:12:46Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
